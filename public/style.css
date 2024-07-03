@@ -23,10 +23,10 @@ header {
     text-decoration: none;
 }
 
-.link-header:hover,
-.link-header:focus {
-    color: #14B8A6;
-    text-shadow: 0 4px 8px 0 rgba(8, 72, 65, 0.2), 0 6px 20px 0 rgba(8, 72, 65, 0.19);
+.link-header:hover {
+    background: linear-gradient(45deg, #14B8A6, #2980b9, #0056b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .font-header {
