@@ -7,18 +7,15 @@ This repository contains the source code for my first personal portfolio website
 - **CSS**: Used for styling the website, including fonts, colors, and layout adjustments.
 - **JavaScript**: Used to add interactivity and dynamic features to the website, such as form validation and animations.
 
-## Project Structure
+## Project Directory Structure
 ```
-first-website/
-│
-├── index.html 
-│
-├── public
-│     ├── css/
-│     │     ├── styles.css
-│     ├── js/
-│          ├── script.js
-├── assets/
+index.html
+public/
+├── css/
+│    └── styles.css
+├── js/
+│    └── script.js
+└── assets/
       └── images/
              ├── github icon.png
              ├── instagram icon.png
