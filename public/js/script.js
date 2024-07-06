@@ -74,27 +74,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
   
 document.addEventListener("DOMContentLoaded", function () {
-  const header = document.querySelector("header");
-  const nav = document.querySelector("nav");
-  const postSection = document.getElementById("post");
-  const footer = document.querySelector("footer");
-  
-  window.addEventListener("scroll", function () {
-    const windowHeight = window.innerHeight;
-    const scrollY = window.scrollY;
-    const postSectionTop = postSection.offsetTop;
-    const postSectionBottom = postSectionTop + postSection.clientHeight;
-  
-    if (scrollY + windowHeight >= postSectionBottom) {
-      footer.style.display = "block";
-    } 
-    else {
-      footer.style.display = "none";
-    }
-  });
-}); 
-  
-document.addEventListener("DOMContentLoaded", function () {
   const hamburger = document.querySelector(".hamburger-menu");
   const verticalMenu = document.querySelector(".vertical-menu");
   const bars = document.querySelectorAll(".bar");
@@ -220,28 +199,6 @@ document.addEventListener("DOMContentLoaded", function () {
           oval.className = "lang-oval";
           langContainer.appendChild(oval);
       });
-  });
-});
-
-  
-document.addEventListener("DOMContentLoaded", function () {
-  const footer = document.querySelector("footer");
-  const postSection = document.getElementById("post");
-
-  const postPosition = postSection.offsetTop;
-
-  window.addEventListener("scroll", function () {
-    const scrollY = window.scrollY;
-
-    const distanceFromPost = scrollY - postPosition;
-
-    const threshold = 20; 
-
-    if (distanceFromPost > threshold) {
-      footer.classList.add("active");
-    } else {
-      footer.classList.remove("active");
-    }
   });
 });
 
