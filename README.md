@@ -24,6 +24,7 @@ public/
              ├── photoprofile.png
              ├── sss.png
              └── whatsapp icon.png
+LICENSE
 README.md
 ```
 
