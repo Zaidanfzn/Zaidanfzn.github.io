@@ -41,3 +41,6 @@ In this project structure:
 ## How to Use
 1. Clone this repository: `git clone https://github.com/Zaidanfzn/Zaidanfzn.github.io.git`
 2. Open `index.html` in your web browser.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
